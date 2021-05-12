@@ -15,6 +15,7 @@
   "ports_description": {
     "5050/tcp": "AppDaemon"
   },
+  devices: "/dev/bus/usb/001/006",
   "map": ["config:rw", "share:rw", "ssl"],
   "options": {
     "system_packages": [],
